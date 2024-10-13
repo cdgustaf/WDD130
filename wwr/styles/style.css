@@ -10,7 +10,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background: darkgrey;
+    background: rgb(215, 215, 215);
     align-items: center;
 }
 
@@ -30,6 +30,7 @@ nav a:hover {
 
 h4{
     color: #5A2A27;
+    text-align: center;
 
 }
 
@@ -60,7 +61,7 @@ h4{
 }
 
 .msg h2{
-    color: #BBB09B;
+    color:#326273;
 }
 
 .msg p{
@@ -85,7 +86,7 @@ main section {
 }
 
 .msg{
-    background-color: #5A2A27;
+    background-color:#BBB09B;
 }
 
 footer {
@@ -94,7 +95,7 @@ footer {
 }
 
 footer a{
-    color: #5A2A27;
+    color:#326273;
     text-decoration: none;
 }
 
@@ -117,6 +118,10 @@ footer p {
 footer p a:hover{
     font-size: 1.2em;
     text-decoration: underline;
+}
+
+.logo{
+    width: 80px
 }
 
 
