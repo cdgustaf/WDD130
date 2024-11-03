@@ -6,7 +6,6 @@
 }
 
 header{
-    background-color: rgb(252, 249, 245);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -69,6 +68,13 @@ h4{
 .join:hover {
     background-color: darkslategray ;
     color: #5A2A27;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    gap: 10px;
+    padding: 20px;
 }
 
 #hero-msg{ 
@@ -202,7 +208,7 @@ footer .social img{
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin: 10px 0;
     border: 10px yellow;
 }
 
