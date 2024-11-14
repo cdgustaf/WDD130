@@ -115,7 +115,7 @@ main section {
 
 
 .msg{
-    background-color:#BBB09B;
+    background-color:#ffffff;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6 / 10;
@@ -311,6 +311,12 @@ nav {
     color: #555;
   }
 
+  #hero-img2{
+    width: 100%;
+    height:800px;
+    margin-top: 20px;
+    
+}
 
 
 
