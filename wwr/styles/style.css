@@ -283,17 +283,17 @@ nav {
 
 /*subpage*/
 
-.home-grid {
+.home-grid2 {
     display: block;
     margin: 20px;
   }
   
-  .content-item {
+  .content-item2 {
     overflow: auto; 
     margin-bottom: 2rem;
   }
   
-  .card-img {
+  .card-img2 {
     float: left;
     width: 200px; 
     margin-right: 1rem;
