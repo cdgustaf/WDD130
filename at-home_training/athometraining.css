@@ -1,0 +1,251 @@
+#body {
+    background-color: rgb(179, 124, 52);
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    color: #02182B;
+    text-decoration: none;
+    padding: 35px;
+    background-color: #F16B27;
+}
+
+nav a:hover {
+    background-color: #02182B;
+    color: #0197F6;}
+
+.home-grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr); 
+        gap: 10px;
+        padding: 20px;
+    }
+    
+#hero-msg{ 
+        grid-column: 2/3;
+        grid-row: 1/4;
+        margin-top: 1;
+        z-index: 3;
+    }
+
+    .msg h2{
+        color:#F16B27;
+    }
+    
+    .msg p{
+        color: #02182B;
+    }
+
+    .msg2 h2{
+        color:#F16B27;
+    }
+    
+    .msg2 p{
+        color: #02182B;
+    }
+    
+    #hero-msg h4 {
+        text-align: center;
+        color: white;
+        z-index: 2;
+    }
+    
+    .button-box {
+        text-align: center;
+    }
+    
+    main section {
+        text-align: center;
+    }
+    
+    #background {
+        height: 725px;
+        background-color: rgb(201, 201, 201);
+        grid-column: 1 / 11;
+        grid-row: 4 / 9;
+    }
+    
+    .book {
+        background-color: rgb(179, 179, 179);
+        color: #0197F6;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+        font-size: 18px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    
+    .book:hover {
+        background-color: #BBB09B ;
+        color: #0197F6;
+    }
+    
+    .join {
+        background-color: antiquewhite;
+        color: #F16B27;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+        font-size: 18px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+
+    .msg{
+        background-color:#ffffff;
+        line-height: 1.5em;
+        padding: 100px;
+       
+    }
+
+    .msg2{
+        background-color:#ffffff;
+        line-height: 1.5em;
+        
+    }
+    
+    footer {
+        background-color: #02182B ;
+        color: #F16B27;
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    footer a{
+        color:#F16B27;
+        text-decoration: none;
+    }
+    
+    footer a:hover{
+        color: #0197F6;
+    }
+    
+    .icon{
+        width: 80px;
+        padding-top: 10px;
+    }
+    
+    #hero-img{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    
+    
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        background-image: url("jumping\ jack.png"); /* Add your image URL here */
+        background-size: cover;
+        background-position: center;
+        margin-top: -100px; /* Adjust to sit below the header */
+        height: 700px; /* Set the height as needed */
+     /* Lower stacking order */
+    }
+    
+    #hero-msg h1 {
+        position: relative;
+        z-index: 10; /* Higher than the hero background */
+        text-align: center;
+        margin: 0;
+        padding-top: 5px; /* Adjust to center within the hero section */
+    }
+    
+    #hero-box {
+        grid-column: 1/4;
+        grid-row: 1/4;
+        z-index: -1;
+        margin-top: px;
+    }
+    
+    footer p {
+        font-size: 1.2em;
+    }
+    
+    footer p a:hover{
+        font-size: 1.2em;
+        text-decoration: underline;
+    }
+    
+    .logo{
+        width: 80px
+    }
+    
+    .home-title {
+        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+        font-size: 2em;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    .msg p {
+        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+        font-size: .8em;
+        padding-bottom: 15px;
+        align-items: start;
+    } 
+    
+    .msg2 p {
+        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+        font-size: .8em;
+        padding-bottom: 15px;
+        align-items: start;
+    } 
+
+
+    h2{ 
+        margin: 0;
+    }
+    
+    #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    footer .social img{
+        padding-top: 15px;
+    
+    }
+    
+
+    
+    main section img{ 
+        box-sizing: border-box;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #F16B27;
+    }
+    
+    .msg img {
+        align-items: center;
+    }
+
+    #hero-msg { 
+        z-index: 10;
+
+    }
