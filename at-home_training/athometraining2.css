@@ -1,3 +1,7 @@
+ body{
+    background-color: #02182B;
+}
+
 #body {
     background-color: rgb(179, 124, 52);
     margin: 0;
@@ -60,7 +64,7 @@ nav a:hover {
 
 #hero-msg h4 {
     text-align: center;
-    color: white;
+    color: #02182B;
     z-index: 2;
 }
 
@@ -74,13 +78,13 @@ main section {
 
 #background {
     height: 725px;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(63, 63, 63);
     grid-column: 1 / 11;
     grid-row: 4 / 9;
 }
 
 .book {
-    background-color: rgb(179, 179, 179);
+    background-color: #02182B;
     color: #0197F6;
     text-decoration: none;
     padding: 15px 30px;
@@ -96,7 +100,7 @@ main section {
 }
 
 .join {
-    background-color: antiquewhite;
+    background-color: #02182B;
     color: #F16B27;
     text-decoration: none;
     padding: 15px 30px;
@@ -113,7 +117,7 @@ main section {
 }
 
 .msg2{
-    background-color:#ffffff;
+    background-color:#02182B;
     line-height: 1.5em;
 }
 
