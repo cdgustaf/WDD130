@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+#logo_link {
+        padding-top: 5px;
+        padding-right: 10px;
+        justify-self: center;
+        align-self: center;
+    }
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;}
+
+
+.icon{
+        width: 80px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
         
         body {
             display: flex;
@@ -13,11 +37,11 @@
             min-height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #04AA6D;
+            background-color: #F16B27;
         }
 
         form {
-            background-color: #ffffff;
+            background-color: white;
             padding: 20px 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,7 +58,7 @@
         input[type="text"], input[type="email"], input[type="tel"], select {
             width: 100%;
             border: none;
-            border-bottom: 2px solid #04AA6D;
+            border-bottom: 2px solid #F16B27;
             margin-bottom: 20px;
             padding: 8px;
             font-size: 16px;
@@ -54,7 +78,7 @@
         }
 
         button {
-            background-color: #04AA6D;
+            background-color: #F16B27;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -66,7 +90,7 @@
         }
 
         button:hover {
-            background-color: #037a4d;
+            background-color: #F16B27;
         }
 
     
@@ -87,6 +111,11 @@
     </script>
 </head>
 <body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="Domestic.Fitness.png" alt="Domestic Fitness logo" >
+        </a>
+    </header>
     <form onsubmit="handleSubmit(event)">
         <label for="firstName">First Name</label>
         <input type="text" id="firstName" name="firstName" required>
@@ -100,25 +129,12 @@
         <label for="phone">Phone Number</label>
         <input type="tel" id="phone" name="phone" required>
         <br><br>
-        <label>Gender</label>
-        <input type="radio" id="male" name="gender" value="Male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="Female">
-        <label for="female">Female</label>
-        <br><br>
         <label for="newsletter">Subscribe to my newsletter</label>
         <input type="checkbox" id="newsletter" name="newsletter">
         <label for="updates">Receive daily updates</label>
         <input type="checkbox" id="updates" name="updates">
         <br><br>
-        <label for="genre"> Favorite Music Genre</label>
-        <select id="genre" name="genre">
-            <option value="">--Select One--</option>
-            <option value="Rock">Rock n Roll</option>
-            <option value="Pop">Popular music</option>
-            <option value="RnB">RnB music</option>
-            <option value="Country">Country music</option>
-        </select>
+        
         <br><br>
 
         <button type="submit">Submit Form Now</button>
